@@ -11,7 +11,6 @@ const highscoreEl = document.querySelector('.highscore');
 
 // STARTING VALUES
 let targetNumber = Math.round(Math.random() * 20) + 1;
-console.log(`the target is ${targetNumber}`)
 let score = 20;
 
 checkBtn.addEventListener('click', () => {
